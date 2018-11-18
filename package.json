@@ -1,0 +1,22 @@
+{
+  "name": "monad-js-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "lint": "./node_modules/.bin/tslint -p tsconfig.json",
+    "start": "yarn build && node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^5.10.0",
+    "tslint-config-standard": "^7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "fluture": "^8.0.2",
+    "monet": "^0.8.10"
+  }
+}
